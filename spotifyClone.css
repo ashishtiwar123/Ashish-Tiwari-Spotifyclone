@@ -5,6 +5,32 @@ body{
     color: white;
     overflow: hidden;
 }
+
+@media (max-width:760px) {
+    .main{
+        display:none;
+    }
+    .alert{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.alert{
+    display: none;
+    margin: 40% auto;
+    width: max-content;
+    height: auto;
+    background-color: #232323;
+    color: whitesmoke;
+    text-align: center center;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
 .main {
     display: flex;
     height: 100vh;
